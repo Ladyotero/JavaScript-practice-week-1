@@ -1,4 +1,4 @@
-//Pseudocode
+/*Pseudocode
 
 //Begin call the function
 Function GenerateNameTag(names, role):
@@ -31,7 +31,7 @@ End Function
 *Production Specialist
 
 **************************************
-
+*/
 
 
 
@@ -69,13 +69,13 @@ function CenterAlign(text, width){
 }
 
 // Example 
- const names = "Allen Otero";
- const role = "Production Specialist";
- const nameTag = generateNameTag(names, role);
+ let names = "Allen Otero";
+ let role = "Production Specialist";
+ let nameTag = generateNameTag(names, role);
  console.log(nameTag)
 
 
- const names = "Kenny Dunn";
- const role = "Engineer";
- const nameTag = generateNameTag(names, role);
+ names = "Kenny Dunn";
+ role = "Engineer";
+ nameTag = generateNameTag(names, role);
  console.log(nameTag)

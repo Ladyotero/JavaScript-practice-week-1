@@ -1,4 +1,4 @@
-// PseudoCode//
+/* PseudoCode
 Begin
 //declare variables
 declare numberOfToppings AS INTEGER
@@ -32,7 +32,7 @@ PRINT "The Total Cost of the Pizza; $", totalCost
 RETURN totalCost
       
 END 
-
+*/
 
 
 
