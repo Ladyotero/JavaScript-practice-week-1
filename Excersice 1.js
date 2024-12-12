@@ -51,7 +51,7 @@ console.log("Thank you for your Pizza's Order!");
 
 
     //prompt the number of toppings
-    numberOfToppings = prompt("Enter the number of toppings");
+    numberOfToppings = prompt("Enter the number of toppings:");
 
     //total of the toppings
     numberOfToppings = parseInt(numberOfToppings, 10);
@@ -69,9 +69,6 @@ console.log("Thank you for your Pizza's Order!");
     //print the detail of the order
     console.log("Base Pizza cost: $", basePizzaCost.toFixed(2));
     console.log("Cost of toppings: $", (numberOfToppings * toppingCost).toFixed(2));
-
-
-    //display the total cost
     console.log("The Total cost of your Pizza: $", totalCost.toFixed(2));
 
     return totalCost;
