@@ -69,8 +69,13 @@ function CenterAlign(text, width){
 }
 
 // Example 
- const name = "Allen Otero";
+ const names = "Allen Otero";
  const role = "Production Specialist";
  const nameTag = generateNameTag(names, role);
  console.log(nameTag)
 
+
+ const names = "Kenny Dunn";
+ const role = "Engineer";
+ const nameTag = generateNameTag(names, role);
+ console.log(nameTag)
