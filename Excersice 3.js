@@ -5,9 +5,8 @@ Declare variables for the $ of each cafe
 -Set saltcaramelPrice to the fixxed $ of an salt caramel 
 -Set lattePrice to the fixxed $ of an latte
 -Set mochaPrice to the fixxed $ of an mocha
--Set cappuccinoPrice to the fixxed $ of an americano
+-Set cappuccinoPrice to the fixxed $ of an americano/*
 
-/*
 //calculate the subtotal (assuming the ordering one of each)
 -add the $ of one expressoPrice to the fixed price on an expresso, americano, salt caramel, latte, mocha, americano and store the result in subtotal.
 
@@ -19,10 +18,10 @@ Declare variables for the $ of each cafe
 
 
 //Print the total cost
-End
+End 
 
 
-*/
+
 
 
 'use strict'
